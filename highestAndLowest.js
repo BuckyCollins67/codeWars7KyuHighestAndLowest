@@ -30,3 +30,21 @@
 //       Transfer them as an actual value into an array
 // 2.  Iterate through the array
 //       
+
+function highAndLow(numbers){
+    let numArray = numbers.split(" ")
+    let bestArray = []
+    console.log(numArray)
+    numArray.forEach(element => {
+        bestArray.push(Number(element))
+        
+    });
+    console.log(bestArray)
+    let small = Math.min(bestArray)
+    let big = Math.max(bestArray)
+
+
+    console.log(small)
+    console.log(big)
+
+  }
